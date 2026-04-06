@@ -18,10 +18,18 @@ const openSans = Open_Sans({
 })
 
 export const metadata: Metadata = {
-  title: "Swifthire LLC Investment Services - Empowering Your Financial Future",
+  title: "Swifthire LLC Consulting - Growth your business with our expert IT staffing solutions",
   description:
-    "Tailored investment strategies for discerning investors. Professional portfolio management services with expertise and trust.",
+    "Swifthire LLC is a leading IT staffing and consulting company dedicated to helping businesses thrive in the digital age. We provide top-tier talent and innovative solutions to meet your technology needs. Whether you're looking for skilled professionals or strategic consulting, Swifthire LLC is your trusted partner for success.",
   generator: "v0.app",
+  icons: {
+    icon: "/swifthire-logo2.png",
+    shortcut: "/swifthire-logo2.png",
+    apple: "/swifthire-logo2.png",
+    other: [
+      { rel: "icon", url: "/swifthire-logo2.png", sizes: "32x32" },
+    ],
+  },
 }
 
 export default function RootLayout({
