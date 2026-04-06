@@ -176,7 +176,7 @@ export default function ForgotPasswordPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-2xl font-serif font-black text-cyan-400 mb-4">SwiftHire LLC</h3>
+              <h3 className="text-2xl font-serif font-black text-white-400 mb-4">SwiftHire LLC</h3>
               <p className="text-gray-400 font-sans mb-4">
                 Commitment for Providing the best talents.
               </p>

@@ -130,6 +130,7 @@
 /* Cyan -> Swifthire mapping */
 .text-cyan-600 { color: #203A43 !important; }
 .text-cyan-400 { color: #2C5364 !important; }
+.text-white-400 { color: rgb(255, 255, 255) !important; }
 .hover\:text-cyan-700:hover { color: #2C5364 !important; }
 .bg-cyan-600 { background-color: #0F2027 !important; }
 .hover\:bg-cyan-700:hover { background-color: #2C5364 !important; }

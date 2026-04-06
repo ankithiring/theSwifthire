@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
+import Image from "next/image"
 import { useState } from "react"
 import { Menu, X } from "lucide-react"
 
@@ -14,8 +15,15 @@ export default function Navigation() {
         <div className="flex justify-center items-center h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <Link href="/" className="text-2xl font-serif font-black text-cyan-600">
-                Swifthire LLC
+              <Link href="/" aria-label="Swifthire LLC">
+                <Image
+                  src="/swift-logo2.png"
+                  alt="Swifthire LLC"
+                  width={160}
+                  height={40}
+                  className="h-10 w-auto"
+                  priority
+                />
               </Link>
             </div>
             <div className="hidden md:block ml-10">
