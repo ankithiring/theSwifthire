@@ -55,7 +55,7 @@ export default function HomePage() {
               </p>
               <div className="flex items-center space-x-8">
                 <div className="text-center">
-                  <div className="text-3xl font-serif font-black text-cyan-600">2+</div>
+                  <div className="text-3xl font-serif font-black text-cyan-600">5+</div>
                   <div className="text-sm text-gray-600 font-sans">Years Experience</div>
                 </div>
                 {/* <div className="text-center">
