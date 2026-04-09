@@ -30,11 +30,33 @@ export default function ContactPage() {
     setFormData((prev) => ({ ...prev, [field]: value }))
   }
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [isLoading, setIsLoading] = useState(false)
+  const [error, setError] = useState<string | null>(null)
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    // Handle form submission logic here
-    console.log("Contact form submission:", formData)
-    setIsSubmitted(true)
+    setIsLoading(true)
+    setError(null)
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      })
+
+      if (!res.ok) {
+        const body = await res.json().catch(() => ({}))
+        throw new Error(body?.error || "Failed to submit form")
+      }
+
+      setIsSubmitted(true)
+    } catch (err: any) {
+      console.error(err)
+      setError(err?.message || "Something went wrong")
+    } finally {
+      setIsLoading(false)
+    }
   }
 
   if (isSubmitted) {
@@ -48,9 +70,51 @@ export default function ContactPage() {
               <CheckCircle className="h-8 w-8 text-green-600" />
             </div>
             <h2 className="text-3xl font-serif font-black text-gray-900 mb-4">Thank You!</h2>
-            <p className="text-gray-600 font-sans mb-8">
-              We've received your message and will get back to you within 24 hours.
+            <p className="text-gray-600 font-sans mb-6">
+              We've received your message. Below is how we proceed and what you can expect next.
             </p>
+
+            <div className="text-left mb-6 space-y-3">
+              <div className="flex items-start">
+                <div className="flex-shrink-0 mt-1 mr-3">
+                  <CheckCircle className="h-5 w-5 text-cyan-600" />
+                </div>
+                <div>
+                  <p className="font-sans font-medium text-gray-900">Review</p>
+                  <p className="text-sm text-gray-600">Our team reviews your message and details.</p>
+                </div>
+              </div>
+
+              <div className="flex items-start">
+                <div className="flex-shrink-0 mt-1 mr-3">
+                  <CheckCircle className="h-5 w-5 text-cyan-600" />
+                </div>
+                <div>
+                  <p className="font-sans font-medium text-gray-900">Assign</p>
+                  <p className="text-sm text-gray-600">We route your request to the right specialist.</p>
+                </div>
+              </div>
+
+              <div className="flex items-start">
+                <div className="flex-shrink-0 mt-1 mr-3">
+                  <CheckCircle className="h-5 w-5 text-cyan-600" />
+                </div>
+                <div>
+                  <p className="font-sans font-medium text-gray-900">Contact</p>
+                  <p className="text-sm text-gray-600">Expect a response within 24 hours to schedule a call or request more info.</p>
+                </div>
+              </div>
+
+              <div className="flex items-start">
+                <div className="flex-shrink-0 mt-1 mr-3">
+                  <CheckCircle className="h-5 w-5 text-cyan-600" />
+                </div>
+                <div>
+                  <p className="font-sans font-medium text-gray-900">Next Steps</p>
+                  <p className="text-sm text-gray-600">We will propose an action plan and next steps during follow-up.</p>
+                </div>
+              </div>
+            </div>
             <div className="space-y-4">
               <Link href="/">
                 <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white">Return to Homepage</Button>
