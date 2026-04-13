@@ -157,8 +157,8 @@ export default function ForgotPasswordPage() {
           <div className="text-center">
             <p className="text-xs text-gray-500 font-sans mb-2">
               Need help? Contact our support team at{" "}
-              <a href="mailto:hr@theswifthire.com" className="text-cyan-600 hover:text-cyan-700">
-                hr@theswifthire.com
+              <a href="mailto:humanresource@theswifthire.com" className="text-cyan-600 hover:text-cyan-700">
+                humanresource@theswifthire.com
               </a>
             </p>
             <p className="text-xs text-gray-500 font-sans">
@@ -234,7 +234,7 @@ export default function ForgotPasswordPage() {
             <div>
               <h4 className="text-lg font-serif font-bold mb-4">Contact Info</h4>
               <div className="space-y-2 text-gray-400 font-sans">
-                <p>📧 hr@theswifthire.com</p>
+                <p>📧 humanresource@theswifthire.com</p>
                 <p>📞 +1 (915) 219-4858</p>
               </div>
             </div>

@@ -178,10 +178,10 @@ export default function ContactPage() {
                 <h3 className="text-xl font-serif font-bold text-gray-900 mb-2">Email Us</h3>
                 <p className="text-gray-600 font-sans mb-4">Send us an Email</p>
                 <a
-                  href="mailto:hr@theswifthire.com"
+                  href="mailto:humanresource@theswifthire.com"
                   className="text-cyan-600 hover:text-cyan-700 font-sans font-medium"
                 >
-                  hr@theswifthire.com
+                  humanresource@theswifthire.com
                 </a>
                 <p className="text-sm text-gray-500 font-sans mt-2">We respond within 24 hours</p>
               </CardContent>
@@ -386,7 +386,7 @@ export default function ContactPage() {
                           </p>
                           <p className="flex items-center">
                             <Mail className="h-4 w-4 text-gray-400 mr-2" />
-                            hr@theswifthire.com
+                            humanresource@theswifthire.com
                           </p>
                           <p className="flex items-center">
                             <Clock className="h-4 w-4 text-gray-400 mr-2" />
@@ -419,7 +419,7 @@ export default function ContactPage() {
                           </p>
                           <p className="flex items-center">
                             <Mail className="h-4 w-4 text-gray-400 mr-2" />
-                            hr@theswifthire.com
+                            humanresource@theswifthire.com
                           </p>
                           <p className="flex items-center">
                             <Clock className="h-4 w-4 text-gray-400 mr-2" />
@@ -523,7 +523,7 @@ export default function ContactPage() {
             <div>
               <h4 className="text-lg font-serif font-bold mb-4">Contact Info</h4>
               <div className="space-y-2 text-gray-400 font-sans">
-                <p>📧 hr@theswifthire.com</p>
+                <p>📧 humanresource@theswiftire.com</p>
                 <p>📞 +1 (915) 219-4858</p>
               </div>
             </div>

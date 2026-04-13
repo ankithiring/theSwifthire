@@ -363,7 +363,7 @@ export default function CuttingEdgeRecruitmentPage() {
             <div>
               <h4 className="text-lg font-serif font-bold mb-4">Contact Info</h4>
               <div className="space-y-2 text-gray-400 font-sans">
-                <p>📧 hr@theswifthire.com</p>
+                <p>📧 humanresource@theswifthire.com</p>
                 <p>📞 +1 (915) 219-4858</p>
               </div>
             </div>
