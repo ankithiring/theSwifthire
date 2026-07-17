@@ -18,7 +18,7 @@ const openSans = Open_Sans({
 })
 
 export const metadata: Metadata = {
-  title: "Swifthire LLC Consulting - Growth your business with our expert IT staffing solutions",
+  title: "Swifthire LLC Consulting - Grow your business with our expert IT staffing solutions",
   description:
     "Swifthire LLC is a leading IT staffing and consulting company dedicated to helping businesses thrive in the digital age. We provide top-tier talent and innovative solutions to meet your technology needs. Whether you're looking for skilled professionals or strategic consulting, Swifthire LLC is your trusted partner for success.",
   generator: "v0.app",

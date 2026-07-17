@@ -16,7 +16,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl md:text-6xl font-serif font-black text-gray-900 mb-6">
-              Growth Your <span className="text-cyan-600">Talent</span>
+              Grow Your <span className="text-cyan-600">Talent</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto font-sans">
               We help businesses grow by connecting them with top-tier talent across the US. Our staffing solutions are designed to accelerate hiring, reduce time-to-fill, and ensure the right fit for long-term success.
