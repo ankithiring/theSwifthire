@@ -178,7 +178,9 @@ export default function ContactPage() {
                 <h3 className="text-xl font-serif font-bold text-gray-900 mb-2">Email Us</h3>
                 <p className="text-gray-600 font-sans mb-4">Send us an Email</p>
                 <a
-                  href="mailto:humanresource@theswifthire.com"
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=humanresource@theswifthire.com"
+                    target="_blank"
+                  rel="noopener noreferrer"
                   className="text-cyan-600 hover:text-cyan-700 font-sans font-medium"
                 >
                   humanresource@theswifthire.com
