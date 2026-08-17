@@ -46,7 +46,7 @@ export default function AboutPage() {
             </div>
             <div className="relative">
               <img
-                src="/images/pms-img-1.jpg"
+                src="/images/our story.png"
                 alt="Swifthire LLC office"
                 className="rounded-lg shadow-xl"
               />
@@ -123,8 +123,8 @@ export default function AboutPage() {
             <Card className="border-0 shadow-lg text-center">
               <CardContent className="pt-6">
                 <img
-                  src="/images/avatar/fallback.jpg"
-                  alt="Rajesh Mehta"
+                  src="/images/avatar/priyanksir.jpeg"
+                  alt="PRIYANK MOD"
                   className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
                 />
                 {/* <h3 className="text-xl font-serif font-bold text-gray-900 mb-2">John Doe</h3> */}
@@ -141,7 +141,7 @@ export default function AboutPage() {
               <CardContent className="pt-6">
                 <img
                   src="/images/avatar/fallback.jpg"
-                  alt="Priya Sharma"
+                  alt="MOHAMMAD HUSSAIN"
                   className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
                 />
                 {/* <h3 className="text-xl font-serif font-bold text-gray-900 mb-2">John Doe</h3> */}
@@ -158,7 +158,7 @@ export default function AboutPage() {
               <CardContent className="pt-6">
                 <img
                   src="/images/avatar/fallback.jpg"
-                  alt="Amit Kumar"
+                  alt="PARAAS SHRIVASTAV"
                   className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
                 />
                 {/* <h3 className="text-xl font-serif font-bold text-gray-900 mb-2">John Doe</h3> */}

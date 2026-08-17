@@ -12,7 +12,7 @@ export default function HomePage() {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-gray-50 to-white py-20">
+      <section className="bg-gradient-to-br from-gray-50 to-white py-20 ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl md:text-6xl font-serif font-black text-gray-900 mb-6">
@@ -70,7 +70,7 @@ export default function HomePage() {
             </div>
             <div className="relative">
               <img
-                src="/images/pms-img-2.jpg"
+                src="/images/whoweare.jpeg"
                 alt="Professional financial advisors"
                 className="rounded-lg shadow-xl"
               />
@@ -78,6 +78,65 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      {/* LOGO ANIMATION */}
+                  {/* Client Logos Marquee */}
+<section className="w-full overflow-hidden border-y border-gray-200 bg-white py-3">
+  <div className="relative flex overflow-hidden">
+
+    <div className="flex min-w-max items-center gap-6 animate-marquee">
+
+      {/* LOGOS */}
+      {[
+        "/images/avatar/AbbVie_logo.svg",
+        "/images/avatar/Mckesson_logo.svg",
+        "/images/avatar/Geico_logo.svg",
+        "/images/avatar/emids-logo.png",
+        "/images/avatar/NexGen-Logo.webp",
+        "/images/avatar/innova-logo.png",
+        "/images/avatar/jp-morgan-logo.png",
+        "/images/avatar/JetBlue-Logo.jpg",
+        "/images/avatar/nike_logo.webp",
+        
+      ].map((logo, index) => (
+        <div
+          key={`logo-1-${index}`}
+          className="flex h-16 w-32 shrink-0 items-center justify-center rounded-md bg-white px-4 shadow-sm"
+        >
+          <img
+            src={logo}
+            alt={`Client ${index + 1}`}
+            className="max-h-10 max-w-full object-contain"
+          />
+        </div>
+      ))}
+
+      {/* DUPLICATE FOR INFINITE LOOP */}
+      {[
+        "/images/avatar/AbbVie_logo.svg",
+        "/images/avatar/Mckesson_logo.svg",
+        "/images/avatar/Geico_logo.svg",
+        "/images/avatar/emids-logo.png",
+        "/images/avatar/ BankOfAmerica_logo.png",
+        "/images/avatar/innova-logo.png",
+        "/images/avatar/jp-morgan-logo.png",
+        "/images/avatar/JetBlue-Logo.jpg",
+        "/images/avatar/JetBlue-Logo.jpg",
+      ].map((logo, index) => (
+        <div
+          key={`logo-2-${index}`}
+          className="flex h-16 w-32 shrink-0 items-center justify-center rounded-md bg-white px-4 shadow-sm"
+        >
+          <img
+            src={logo}
+            alt={`Client ${index + 1}`}
+            className="max-h-10 max-w-full object-contain"
+          />
+        </div>
+      ))}
+
+    </div>
+  </div>
+</section>
 
   {/* Why Choose Our Swifthire LLC */}
       <section id="services" className="py-20 bg-gray-50">
@@ -191,7 +250,7 @@ export default function HomePage() {
             </div>
             <div>
               <img
-                src="/images/pms-img-1.jpg"
+                src="/images/PMS-IMG1.jpeg"
                 alt="Investment analysis"
                 className="rounded-lg shadow-lg"
               />
