@@ -82,6 +82,56 @@ export default function TestimonialsPage() {
                 </div>
               </CardContent>
             </Card>
+              <Card className="border-0 shadow-xl bg-gradient-to-br from-slate-100 via-blue-50 to-white">
+              <CardContent className="p-8">
+                <Quote className="h-12 w-12 text-cyan-600 mb-6" />
+                <div className="flex items-center mb-4">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="h-6 w-6 text-amber-500 fill-current" />
+                  ))}
+                </div>
+                <p className="text-lg text-gray-700 font-sans mb-6 italic leading-relaxed">
+                 “Finding the right talent has always been challenging, but SwiftHire made the process remarkably smooth. They consistently presented qualified professionals who fit both the role and our company culture.”
+                </p>
+                <div className="flex items-center">
+                  <img
+                    src="/images/avatar/Mckesson_logo.svg"
+                    alt="Mitchell Martin"
+                    className="w-15 h-15 rounded-full mr-4"
+                  />
+                  <div>
+                    <div className="font-serif font-bold text-gray-900 text-lg">Mckesson</div>
+                    <div className="text-cyan-600 font-sans">Healthcare distribution and technology</div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-0 shadow-xl bg-gradient-to-br from-indigo-50 via-blue-50 to-white">
+              <CardContent className="p-8">
+                <Quote className="h-12 w-12 text-amber-600 mb-6" />
+                <div className="flex items-center mb-4">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="h-6 w-6 text-amber-500 fill-current" />
+                  ))}
+                </div>
+                <p className="text-lg text-gray-700 font-sans mb-6 italic leading-relaxed">
+                  “SwiftHire LLC has become a trusted extension of our hiring team. Their understanding of technical roles, communication, and commitment to finding the right fit has made a real difference in our recruitment process.”
+                </p>
+                <div className="flex items-center">
+                  <img
+                    src="/images/avatar/toyota.svg"
+                    alt="NextGen logo"
+                    className="w-15 h-15 rounded-full mr-4"
+                  />
+                  <div>
+                    <div className="font-serif font-bold text-gray-900 text-lg">TOYOTA</div>
+                    <div className="text-amber-600 font-sans">Automotive</div>
+                    <div className="text-sm text-gray-600 font-sans"></div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
@@ -95,7 +145,7 @@ export default function TestimonialsPage() {
               Over 200 satisfied clients trust us with their wealth management needs.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow">
               <CardContent className="pt-6">
                 <div className="flex items-center mb-4">
@@ -216,9 +266,110 @@ export default function TestimonialsPage() {
                 </div>
               </CardContent>
             </Card>
+
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow">
+              <CardContent className="pt-6">
+                <div className="flex items-center mb-4">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="h-5 w-5 text-amber-500 fill-current" />
+                  ))}
+                </div>
+                <p className="text-gray-600 font-sans mb-4 italic">
+                 “SwiftHire combines professionalism with a genuinely personal approach. They were responsive throughout the process, understood our priorities, and helped us connect with exceptional talent without unnecessary delays.”                </p>
+                <div className="flex items-center">
+                  <img src="/images/avatar/Geico_logo.svg" alt="Client" className="w-12 h-12 rounded-full mr-4" />
+                  <div>
+                    <div className="font-serif font-bold text-gray-900">GIECO</div>
+                    <div className="text-sm text-gray-600 font-sans"> Insurance Company</div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow">
+              <CardContent className="pt-6">
+                <div className="flex items-center mb-4">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="h-5 w-5 text-amber-500 fill-current" />
+                  ))}
+                </div>
+                <p className="text-gray-600 font-sans mb-4 italic">
+                  “What impressed us most was SwiftHire’s understanding of our business—not just the job description. They delivered professionals who brought the right skills, experience, and mindset to our growing team.”
+                </p>
+                <div className="flex items-center">
+                  <img src="/images/avatar/IRS.svg" alt="Client" className="w-12 h-12 rounded-full mr-4" />
+                  <div>
+                    <div className="font-serif font-bold text-gray-900"> IRS - INTERNAL REVENUE SERVICE </div>
+                    <div className="text-sm text-gray-600 font-sans">Client</div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
+
+      {/* Featured Testimonials */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+            <Card className="border-0 shadow-xl bg-gradient-to-br from-rose-50 via-pink-50 to-white">
+              <CardContent className="p-8">
+                <Quote className="h-12 w-12 text-cyan-600 mb-6" />
+                <div className="flex items-center mb-4">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="h-6 w-6 text-amber-500 fill-current" />
+                  ))}
+                </div>
+                <p className="text-lg text-gray-700 font-sans mb-6 italic leading-relaxed">
+                  “From the initial conversation to the final placement, SwiftHire maintained excellent communication and professionalism. Their team truly understands what it takes to create successful connections between companies and talented professionals.”
+                </p>
+                <div className="flex items-center">
+                  <img
+                    src="/images/avatar/university-of-phoenix-2.svg"
+                    alt="Mitchell Martin"
+                    className="w-15 h-15 rounded-full mr-4"
+                  />
+                  <div>
+                    <div className="font-serif font-bold text-gray-900 text-lg">UNIVERSITY OF PHOENIX</div>
+                    {/* <div className="text-cyan-600 font-sans">IT Staffing & Workforce Solutions</div> */}
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-0 shadow-xl bg-gradient-to-br from-blue-50 via-indigo-50 to-white">
+              <CardContent className="p-8">
+                <Quote className="h-12 w-12 text-amber-600 mb-6" />
+                <div className="flex items-center mb-4">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="h-6 w-6 text-amber-500 fill-current" />
+                  ))}
+                </div>
+                <p className="text-lg text-gray-700 font-sans mb-6 italic leading-relaxed">
+                 “We needed specialized talent quickly, and SwiftHire delivered. Their screening process saved our team valuable time while ensuring that every candidate we interviewed was relevant and well-qualified.”
+                </p>
+                <div className="flex items-center">
+                  <img
+                    src="/images/avatar/AbbVie_logo.svg"
+                    alt="NextGen logo"
+                    className="w-15 h-15 rounded-full mr-4"
+                  />
+                  <div>
+                    <div className="font-serif font-bold text-gray-900 text-lg">ABBVIE</div>
+                    <div className="text-amber-600 font-sans">BIOPHARMA COMPANY</div>
+                    <div className="text-sm text-gray-600 font-sans"></div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+             
+
+           
+          </div>
+        </div>
+      </section>
+
 
       {/* Success Metrics */}
       <section className="py-20 bg-white">

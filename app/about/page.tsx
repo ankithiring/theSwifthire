@@ -46,7 +46,7 @@ export default function AboutPage() {
             </div>
             <div className="relative">
               <img
-                src="/images/pms-img-1.jpg"
+                src="/images/our story.png"
                 alt="Swifthire LLC office"
                 className="rounded-lg shadow-xl"
               />
@@ -111,7 +111,7 @@ export default function AboutPage() {
       </section>
 
       {/* Leadership Team */}
-      <section id="team" className="py-20 bg-white">
+      {/* <section id="team" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-serif font-black text-gray-900 mb-4">Leadership Team</h2>
@@ -123,16 +123,29 @@ export default function AboutPage() {
             <Card className="border-0 shadow-lg text-center">
               <CardContent className="pt-6">
                 <img
-                  src="/images/avatar/fallback.jpg"
-                  alt="Rajesh Mehta"
+                  src="/images/avatar/priyanksir.jpeg"
+                  alt="PRIYANK MOD"
                   className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
                 />
-                {/* <h3 className="text-xl font-serif font-bold text-gray-900 mb-2">John Doe</h3> */}
+                <h3 className="text-xl font-serif font-bold text-gray-900 mb-2">Priyank Mod</h3>
                 <p className="text-cyan-600 font-sans mb-4">Founder & CEO</p>
                 <p className="text-gray-600 font-sans text-sm">
-                  Leads the vision and strategic direction of SwiftHire LLC, focusing on building a trusted, 
-                  high-performance staffing partner. Oversees client relationships, business growth, 
-                  and delivery excellence while ensuring every hiring solution aligns with long-term success and market demands.
+                  Sets the vision and long-term strategy for SwiftHire LLC: to become a trusted staffing partner that helps businesses build high-performing teams with confidence. Leads company growth, client partnerships, service quality, and operational excellence—ensuring every hiring solution creates lasting value for both clients and candidates.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-0 shadow-lg text-center">
+              <CardContent className="pt-6">
+                <img
+                  src="/images/avatar/mohhamad-husssain.png"
+                  alt="MOHAMMAD HUSSAIN"
+                  className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
+                />
+                <h3 className="text-xl font-serif font-bold text-gray-900 mb-2">Mohammad Hussain</h3>
+                <p className="text-cyan-600 font-sans mb-4">Vice President </p>
+                <p className="text-gray-600 font-sans text-sm">
+                 Leads talent strategy and end-to-end recruitment delivery across technical and professional roles. Builds scalable sourcing, screening, and candidate-engagement processes that balance speed with quality. Focuses on connecting clients with skilled, culturally aligned talent while creating a professional and transparent candidate experience.
                 </p>
               </CardContent>
             </Card>
@@ -141,38 +154,336 @@ export default function AboutPage() {
               <CardContent className="pt-6">
                 <img
                   src="/images/avatar/fallback.jpg"
-                  alt="Priya Sharma"
+                  alt="PARAS SHRIVASTAV"
                   className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
                 />
-                {/* <h3 className="text-xl font-serif font-bold text-gray-900 mb-2">John Doe</h3> */}
-                <p className="text-cyan-600 font-sans mb-4">Talent Acquisition Lead</p>
+                <h3 className="text-xl font-serif font-bold text-gray-900 mb-2">Paaras Srivaastaava</h3>
+                <p className="text-cyan-600 font-sans mb-4">Marketing & Business Development Manager</p>
                 <p className="text-gray-600 font-sans text-sm">
-                  Drives end-to-end recruitment by sourcing, screening, and placing top-tier talent across technical domains. 
-                  Focuses on quality hiring, cultural alignment, and fast turnaround, ensuring clients receive the 
-                  right candidates to meet their business and project needs.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="border-0 shadow-lg text-center">
-              <CardContent className="pt-6">
-                <img
-                  src="/images/avatar/fallback.jpg"
-                  alt="Amit Kumar"
-                  className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
-                />
-                {/* <h3 className="text-xl font-serif font-bold text-gray-900 mb-2">John Doe</h3> */}
-                <p className="text-cyan-600 font-sans mb-4">Head of Sales & Marketing</p>
-                <p className="text-gray-600 font-sans text-sm">
-                  Leads business development and brand growth by identifying new opportunities and strengthening client 
-                  relationships. Focuses on market positioning, lead generation, and strategic outreach to expand SwiftHire 
-                  LLC's presence and drive consistent revenue growth.
+                  Drives SwiftHire LLC’s market presence, client growth, and brand credibility. Leads strategic outreach, lead generation, account development, and marketing initiatives that position SwiftHire as a reliable staffing partner. Focuses on building long-term client relationships and identifying opportunities where the right talent can solve real business challenges.
                 </p>
               </CardContent>
             </Card>
           </div>
         </div>
-      </section>
+      </section> */}
+
+     <section id="team" className="py-20 bg-white">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+    {/* Section Heading */}
+    <div className="text-center mb-16">
+      <h2 className="text-4xl font-serif font-black text-gray-900 mb-4">
+        Leadership Team
+      </h2>
+
+      <p className="text-xl text-gray-600 max-w-3xl mx-auto font-sans">
+        Meet the experienced professionals who guide our strategies and client relationships.
+      </p>
+    </div>
+
+    {/* Team Cards */}
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+      {/* ================= PRIYANK ================= */}
+      <Card className="group border-0 bg-white shadow-lg text-center overflow-hidden">
+
+        <CardContent className="pt-6 px-6">
+
+          {/* Profile Image */}
+          <img
+            src="/images/avatar/priyanksir.jpeg"
+            alt="PRIYANK MOD"
+            className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
+          />
+
+          {/* Name */}
+          <h3 className="text-xl font-serif font-bold text-gray-900 mb-2">
+            Priyank Mod
+          </h3>
+
+          {/* Designation */}
+          <p className="text-cyan-600 font-sans mb-4">
+            Founder & CEO
+          </p>
+
+          {/* Description + LinkedIn Hover */}
+          <div className="relative min-h-[150px]">
+
+            {/* Description */}
+            <p
+              className="
+                text-gray-600
+                font-sans
+                text-sm
+                leading-relaxed
+                transition-all
+                duration-300
+                group-hover:opacity-0
+              "
+            >
+              Sets the vision and long-term strategy for SwiftHire LLC: to become
+              a trusted staffing partner that helps businesses build
+              high-performing teams with confidence. Leads company growth,
+              client partnerships, service quality, and operational
+              excellence—ensuring every hiring solution creates lasting value
+              for both clients and candidates.
+            </p>
+
+            {/* LinkedIn */}
+            <div
+              className="
+                absolute
+                inset-0
+                flex
+                items-center
+                justify-center
+                opacity-0
+                scale-75
+                transition-all
+                duration-300
+                group-hover:opacity-100
+                group-hover:scale-100
+              "
+            >
+              <a
+                href="https://www.linkedin.com/in/priyank-m-188a9a87/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Priyank Mod LinkedIn"
+                className="
+                  flex
+                  h-14
+                  w-14
+                  items-center
+                  justify-center
+                  rounded-full
+                  bg-[#0092B8]
+                  text-white
+                  shadow-md
+                  transition-all
+                  duration-300
+                  hover:bg-[#007A99]
+                  hover:scale-110
+                "
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  className="h-7 w-7"
+                >
+                  <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.94v5.67H9.35V8.99h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.3zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.56V8.99h3.56v11.46zM22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.46C23.21 24 24 .77 24 1.72v20.56C24 .77 23.21 0 22.23 0z" />
+                </svg>
+              </a>
+            </div>
+
+          </div>
+
+        </CardContent>
+      </Card>
+
+
+      {/* ================= MOHAMMAD ================= */}
+      <Card className="group border-0 bg-white shadow-lg text-center overflow-hidden">
+
+        <CardContent className="pt-6 px-6">
+
+          {/* Profile Image */}
+          <img
+            src="/images/avatar/mohhamad-husssain.png"
+            alt="MOHAMMAD HUSSAIN"
+            className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
+          />
+
+          {/* Name */}
+          <h3 className="text-xl font-serif font-bold text-gray-900 mb-2">
+            Mohammad Hussain
+          </h3>
+
+          {/* Designation */}
+          <p className="text-cyan-600 font-sans mb-4">
+            Vice President
+          </p>
+
+          {/* Description + LinkedIn */}
+          <div className="relative min-h-[150px]">
+
+            {/* Description */}
+            <p
+              className="
+                text-gray-600
+                font-sans
+                text-sm
+                leading-relaxed
+                transition-all
+                duration-300
+                group-hover:opacity-0
+              "
+            >
+              Leads talent strategy and end-to-end recruitment delivery across
+              technical and professional roles. Builds scalable sourcing,
+              screening, and candidate-engagement processes that balance speed
+              with quality. Focuses on connecting clients with skilled,
+              culturally aligned talent while creating a professional and
+              transparent candidate experience.
+            </p>
+
+            {/* LinkedIn */}
+            <div
+              className="
+                absolute
+                inset-0
+                flex
+                items-center
+                justify-center
+                opacity-0
+                scale-75
+                transition-all
+                duration-300
+                group-hover:opacity-100
+                group-hover:scale-100
+              "
+            >
+              <a
+                href="https://www.linkedin.com/in/mohammad-hussain-b274a8422/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Mohammad Hussain LinkedIn"
+                className="
+                  flex
+                  h-14
+                  w-14
+                  items-center
+                  justify-center
+                  rounded-full
+                  bg-[#0092B8]
+                  text-white
+                  shadow-md
+                  transition-all
+                  duration-300
+                  hover:bg-[#007A99]
+                  hover:scale-110
+                "
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  className="h-7 w-7"
+                >
+                  <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.94v5.67H9.35V8.99h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.3zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0-4.14 2.07 2.07 0 0 1 0-4.14zM7.12 20.45H3.56V8.99h3.56v11.46zM22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.46C23.21 24 24 .77 24 1.72v20.56C24 .77 23.21 0 22.23 0z" />
+                </svg>
+              </a>
+            </div>
+
+          </div>
+
+        </CardContent>
+      </Card>
+
+
+      {/* ================= PAARAS ================= */}
+      <Card className="group border-0 bg-white shadow-lg text-center overflow-hidden">
+
+        <CardContent className="pt-6 px-6">
+
+          {/* Profile Image */}
+          <img
+            src="/images/avatar/fallback.jpg"
+            alt="PARAS SHRIVASTAV"
+            className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
+          />
+
+          {/* Name */}
+          <h3 className="text-xl font-serif font-bold text-gray-900 mb-2">
+            Paaras Srivaastaava
+          </h3>
+
+          {/* Designation */}
+          <p className="text-cyan-600 font-sans mb-4">
+            Marketing & Business Development Manager
+          </p>
+
+          {/* Description + LinkedIn */}
+          <div className="relative min-h-[150px]">
+
+            {/* Description */}
+            <p
+              className="
+                text-gray-600
+                font-sans
+                text-sm
+                leading-relaxed
+                transition-all
+                duration-300
+                group-hover:opacity-0
+              "
+            >
+              Drives SwiftHire LLC’s market presence, client growth, and brand
+              credibility. Leads strategic outreach, lead generation, account
+              development, and marketing initiatives that position SwiftHire as
+              a reliable staffing partner. Focuses on building long-term client
+              relationships and identifying opportunities where the right talent
+              can solve real business challenges.
+            </p>
+
+            {/* LinkedIn */}
+            <div
+              className="
+                absolute
+                inset-0
+                flex
+                items-center
+                justify-center
+                opacity-0
+                scale-75
+                transition-all
+                duration-300
+                group-hover:opacity-100
+                group-hover:scale-100
+              "
+            >
+              <a
+                href="YOUR_PAARAS_LINKEDIN_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Paaras Srivaastaava LinkedIn"
+                className="
+                  flex
+                  h-14
+                  w-14
+                  items-center
+                  justify-center
+                  rounded-full
+                  bg-[#0092B8]
+                  text-white
+                  shadow-md
+                  transition-all
+                  duration-300
+                  hover:bg-[#007A99]
+                  hover:scale-110
+                "
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  className="h-7 w-7"
+                >
+                  <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.94v5.67H9.35V8.99h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.3zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0-4.14zM7.12 20.45H3.56V8.99h3.56v11.46zM22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.46C23.21 24 24 .77 24 1.72v20.56C24 .77 23.21 0 22.23 0z" />
+                </svg>
+              </a>
+            </div>
+
+          </div>
+
+        </CardContent>
+      </Card>
+
+    </div>
+  </div>
+</section>
 
       {/* Key Statistics */}
       <section className="py-20 bg-white">
