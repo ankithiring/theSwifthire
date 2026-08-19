@@ -187,27 +187,22 @@ export default function AboutPage() {
 
       {/* ================= PRIYANK ================= */}
       <Card className="group border-0 bg-white shadow-lg text-center overflow-hidden">
-
         <CardContent className="pt-6 px-6">
 
-          {/* Profile Image */}
           <img
             src="/images/avatar/priyanksir.jpeg"
             alt="PRIYANK MOD"
             className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
           />
 
-          {/* Name */}
           <h3 className="text-xl font-serif font-bold text-gray-900 mb-2">
             Priyank Mod
           </h3>
 
-          {/* Designation */}
           <p className="text-cyan-600 font-sans mb-4">
             Founder & CEO
           </p>
 
-          {/* Description + LinkedIn Hover */}
           <div className="relative min-h-[150px]">
 
             {/* Description */}
@@ -230,7 +225,7 @@ export default function AboutPage() {
               for both clients and candidates.
             </p>
 
-            {/* LinkedIn */}
+            {/* LinkedIn + Gmail */}
             <div
               className="
                 absolute
@@ -238,6 +233,7 @@ export default function AboutPage() {
                 flex
                 items-center
                 justify-center
+                gap-4
                 opacity-0
                 scale-75
                 transition-all
@@ -246,11 +242,14 @@ export default function AboutPage() {
                 group-hover:scale-100
               "
             >
+
+              {/* LinkedIn */}
               <a
                 href="https://www.linkedin.com/in/priyank-m-188a9a87/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Priyank Mod LinkedIn"
+                title="LinkedIn"
                 className="
                   flex
                   h-14
@@ -272,44 +271,102 @@ export default function AboutPage() {
                   viewBox="0 0 24 24"
                   fill="currentColor"
                   className="h-7 w-7"
+                  aria-hidden="true"
                 >
-                  <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.94v5.67H9.35V8.99h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.3zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.56V8.99h3.56v11.46zM22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.46C23.21 24 24 .77 24 1.72v20.56C24 .77 23.21 0 22.23 0z" />
+                  <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.94v5.67H9.35V8.99h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.3zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.56V8.99h3.56v11.46zM22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.46C23.21 0 24 .77 24 1.72v20.56C24 .77 23.21 24 22.23 24z" />
                 </svg>
               </a>
+
+              {/* Gmail */}
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=priyank.mod@theswifthire.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Email Priyank Mod"
+                title="Email Priyank Mod"
+                className="
+                  flex
+                  h-14
+                  w-14
+                  items-center
+                  justify-center
+                  rounded-full
+                  bg-white
+                  shadow-md
+                  ring-1
+                  ring-gray-200
+                  transition-all
+                  duration-300
+                  hover:scale-110
+                  hover:shadow-lg
+                "
+              >
+                <svg
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-7 w-7"
+                  aria-hidden="true"
+                >
+                  <rect
+                    width="512"
+                    height="512"
+                    rx="15%"
+                    fill="#fff"
+                  />
+
+                  <path
+                    d="M158 391v-142l-82-63V361q0 30 30 30"
+                    fill="#4285f4"
+                  />
+
+                  <path
+                    d="M154 248l102 77l102-77v-98l-102 77l-102-77"
+                    fill="#ea4335"
+                  />
+
+                  <path
+                    d="M354 391v-142l82-63V361q0 30-30 30"
+                    fill="#34a853"
+                  />
+
+                  <path
+                    d="M76 188l82 63v-98l-30-23c-27-21-52 0-52 26"
+                    fill="#c5221f"
+                  />
+
+                  <path
+                    d="M436 188l-82 63v-98l30-23c27-21-52 0-52 26"
+                    fill="#fbbc04"
+                  />
+                </svg>
+              </a>
+
             </div>
-
           </div>
-
         </CardContent>
       </Card>
 
 
       {/* ================= MOHAMMAD ================= */}
       <Card className="group border-0 bg-white shadow-lg text-center overflow-hidden">
-
         <CardContent className="pt-6 px-6">
 
-          {/* Profile Image */}
           <img
-            src="/images/avatar/mohhamad-husssain.png"
+            src="/images/avatar/mohhamad-husssain.PNG"
             alt="MOHAMMAD HUSSAIN"
             className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
           />
 
-          {/* Name */}
           <h3 className="text-xl font-serif font-bold text-gray-900 mb-2">
             Mohammad Hussain
           </h3>
 
-          {/* Designation */}
           <p className="text-cyan-600 font-sans mb-4">
-            Vice President
+            Vice President Of Growth
           </p>
 
-          {/* Description + LinkedIn */}
           <div className="relative min-h-[150px]">
 
-            {/* Description */}
             <p
               className="
                 text-gray-600
@@ -329,7 +386,7 @@ export default function AboutPage() {
               transparent candidate experience.
             </p>
 
-            {/* LinkedIn */}
+            {/* LinkedIn + Gmail */}
             <div
               className="
                 absolute
@@ -337,6 +394,7 @@ export default function AboutPage() {
                 flex
                 items-center
                 justify-center
+                gap-4
                 opacity-0
                 scale-75
                 transition-all
@@ -345,11 +403,14 @@ export default function AboutPage() {
                 group-hover:scale-100
               "
             >
+
+              {/* LinkedIn */}
               <a
                 href="https://www.linkedin.com/in/mohammad-hussain-b274a8422/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Mohammad Hussain LinkedIn"
+                title="LinkedIn"
                 className="
                   flex
                   h-14
@@ -371,44 +432,76 @@ export default function AboutPage() {
                   viewBox="0 0 24 24"
                   fill="currentColor"
                   className="h-7 w-7"
+                  aria-hidden="true"
                 >
-                  <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.94v5.67H9.35V8.99h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.3zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0-4.14 2.07 2.07 0 0 1 0-4.14zM7.12 20.45H3.56V8.99h3.56v11.46zM22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.46C23.21 24 24 .77 24 1.72v20.56C24 .77 23.21 0 22.23 0z" />
+                  <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.94v5.67H9.35V8.99h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.3zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.56V8.99h3.56v11.46zM22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23 23.21 24 22.23 24z" />
                 </svg>
               </a>
+
+              {/* Gmail */}
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=mohammad.hussain@theswifthire.com"
+                target="_blank"
+                aria-label="Email Mohammad Hussain"
+                title="Email Mohammad Hussain"
+                className="
+                  flex
+                  h-14
+                  w-14
+                  items-center
+                  justify-center
+                  rounded-full
+                  bg-white
+                  shadow-md
+                  ring-1
+                  ring-gray-200
+                  transition-all
+                  duration-300
+                  hover:scale-110
+                  hover:shadow-lg
+                "
+              >
+                <svg
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-7 w-7"
+                  aria-hidden="true"
+                >
+                  <rect width="512" height="512" rx="15%" fill="#fff" />
+                  <path d="M158 391v-142l-82-63V361q0 30 30 30" fill="#4285f4" />
+                  <path d="M154 248l102 77l102-77v-98l-102 77l-102-77" fill="#ea4335" />
+                  <path d="M354 391v-142l82-63V361q0 30-30 30" fill="#34a853" />
+                  <path d="M76 188l82 63v-98l-30-23c-27-21-52 0-52 26" fill="#c5221f" />
+                  <path d="M436 188l-82 63v-98l30-23c27-21 52 0 52 26" fill="#fbbc04" />
+                </svg>
+              </a>
+
             </div>
-
           </div>
-
         </CardContent>
       </Card>
 
 
       {/* ================= PAARAS ================= */}
       <Card className="group border-0 bg-white shadow-lg text-center overflow-hidden">
-
         <CardContent className="pt-6 px-6">
 
-          {/* Profile Image */}
           <img
             src="/images/avatar/fallback.jpg"
             alt="PARAS SHRIVASTAV"
             className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
           />
 
-          {/* Name */}
           <h3 className="text-xl font-serif font-bold text-gray-900 mb-2">
             Paaras Srivaastaava
           </h3>
 
-          {/* Designation */}
           <p className="text-cyan-600 font-sans mb-4">
             Marketing & Business Development Manager
           </p>
 
-          {/* Description + LinkedIn */}
           <div className="relative min-h-[150px]">
 
-            {/* Description */}
             <p
               className="
                 text-gray-600
@@ -428,7 +521,7 @@ export default function AboutPage() {
               can solve real business challenges.
             </p>
 
-            {/* LinkedIn */}
+            {/* LinkedIn + Gmail */}
             <div
               className="
                 absolute
@@ -436,6 +529,7 @@ export default function AboutPage() {
                 flex
                 items-center
                 justify-center
+                gap-4
                 opacity-0
                 scale-75
                 transition-all
@@ -444,11 +538,14 @@ export default function AboutPage() {
                 group-hover:scale-100
               "
             >
+
+              {/* LinkedIn */}
               <a
                 href="YOUR_PAARAS_LINKEDIN_URL"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Paaras Srivaastaava LinkedIn"
+                title="LinkedIn"
                 className="
                   flex
                   h-14
@@ -470,14 +567,52 @@ export default function AboutPage() {
                   viewBox="0 0 24 24"
                   fill="currentColor"
                   className="h-7 w-7"
+                  aria-hidden="true"
                 >
-                  <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.94v5.67H9.35V8.99h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.3zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0-4.14zM7.12 20.45H3.56V8.99h3.56v11.46zM22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.46C23.21 24 24 .77 24 1.72v20.56C24 .77 23.21 0 22.23 0z" />
+                  <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.94v5.67H9.35V8.99h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.3zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.56V8.99h3.56v11.46zM22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23 23.21 24 22.23 24z" />
                 </svg>
               </a>
+
+              {/* Gmail */}
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=paras.shrivastava@theswifthire.com"
+                target="_blank"
+                aria-label="Email Paaras Srivaastaava"
+                title="Email Paaras Srivaastaava"
+                className="
+                  flex
+                  h-14
+                  w-14
+                  items-center
+                  justify-center
+                  rounded-full
+                  bg-white
+                  shadow-md
+                  ring-1
+                  ring-gray-200
+                  transition-all
+                  duration-300
+                  hover:scale-110
+                  hover:shadow-lg
+                "
+              >
+                <svg
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-7 w-7"
+                  aria-hidden="true"
+                >
+                  <rect width="512" height="512" rx="15%" fill="#fff" />
+                  <path d="M158 391v-142l-82-63V361q0 30 30 30" fill="#4285f4" />
+                  <path d="M154 248l102 77l102-77v-98l-102 77l-102-77" fill="#ea4335" />
+                  <path d="M354 391v-142l82-63V361q0 30-30 30" fill="#34a853" />
+                  <path d="M76 188l82 63v-98l-30-23c-27-21-52 0-52 26" fill="#c5221f" />
+                  <path d="M436 188l-82 63v-98l30-23c27-21 52 0 52 26" fill="#fbbc04" />
+                </svg>
+              </a>
+
             </div>
-
           </div>
-
         </CardContent>
       </Card>
 
