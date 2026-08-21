@@ -487,7 +487,7 @@ export default function AboutPage() {
         <CardContent className="pt-6 px-6">
 
           <img
-            src="/images/avatar/fallback.jpg"
+            src="/images/avatar/HOP.jpg"
             alt="PARAS SHRIVASTAV"
             className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
           />
@@ -497,7 +497,7 @@ export default function AboutPage() {
           </h3>
 
           <p className="text-cyan-600 font-sans mb-4">
-            Marketing & Business Development Manager
+            Head of Operations
           </p>
 
           <div className="relative min-h-[150px]">
@@ -541,7 +541,7 @@ export default function AboutPage() {
 
               {/* LinkedIn */}
               <a
-                href="YOUR_PAARAS_LINKEDIN_URL"
+                href="https://www.linkedin.com/in/paras0112/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Paaras Srivaastaava LinkedIn"
