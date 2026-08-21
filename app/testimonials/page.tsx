@@ -96,7 +96,7 @@ export default function TestimonialsPage() {
                 <div className="flex items-center">
                   <img
                     src="/images/avatar/Mckesson_logo.svg"
-                    alt="Mitchell Martin"
+                    alt="Mckesson logo"
                     className="w-15 h-15 rounded-full mr-4"
                   />
                   <div>
@@ -120,8 +120,8 @@ export default function TestimonialsPage() {
                 </p>
                 <div className="flex items-center">
                   <img
-                    src="/images/avatar/toyota.svg"
-                    alt="NextGen logo"
+                    src="/images/avatar/Toyota.svg"
+                    alt="TOYOTA logo"
                     className="w-15 h-15 rounded-full mr-4"
                   />
                   <div>
