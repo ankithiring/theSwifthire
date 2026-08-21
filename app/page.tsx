@@ -97,7 +97,7 @@ export default function HomePage() {
       {/* LOGOS */}
       {[
         "/images/avatar/AbbVie_logo.png",
-        "/images/avatar/Mckesson_logo.png",
+        "/images/avatar/McKesson_logo.png",
         "/images/avatar/Geico_logo.png",
         "/images/avatar/emids-logo.png",
         "/images/avatar/NexGen-Logo.png",
@@ -125,14 +125,14 @@ export default function HomePage() {
       {/* DUPLICATE FOR INFINITE LOOP */}
       {[
         "/images/avatar/AbbVie_logo.svg",
-        "/images/avatar/Mckesson_logo.svg",
+        "/images/avatar/McKesson_logo.svg",
         "/images/avatar/Geico_logo.svg",
         "/images/avatar/emids-logo.png",
-        "/images/avatar/ NexGen-Logo.webp",
+        "/images/avatar/NexGen-Logo.webp",
         "/images/avatar/innova-logo.png",
         "/images/avatar/jp-morgan-logo.png",
         "/images/avatar/JetBlue-Logo.jpg",
-        "/images/avatar/nike-logo.webp",
+        "/images/avatar/nike_logo.webp",
       ].map((logo, index) => (
         <div
           key={`logo-2-${index}`}
