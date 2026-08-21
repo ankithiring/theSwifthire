@@ -96,15 +96,18 @@ export default function HomePage() {
 
       {/* LOGOS */}
       {[
-        "/images/avatar/AbbVie_logo.svg",
-        "/images/avatar/Mckesson_logo.svg",
-        "/images/avatar/Geico_logo.svg",
+        "/images/avatar/AbbVie_logo.png",
+        "/images/avatar/Mckesson_logo.png",
+        "/images/avatar/Geico_logo.png",
         "/images/avatar/emids-logo.png",
-        "/images/avatar/NexGen-Logo.webp",
+        "/images/avatar/NexGen-Logo.png",
         "/images/avatar/innova-logo.png",
         "/images/avatar/jp-morgan-logo.png",
         "/images/avatar/JetBlue-Logo.jpg",
-        "/images/avatar/nike_logo.webp",
+        "/images/avatar/nike_logo.png",
+        "/images/avatar/university-of-phoenix-2.png",
+        "/images/avatar/Toyota.png",
+        "/images/avatar/maxis-logo.png",
         
       ].map((logo, index) => (
         <div
@@ -268,10 +271,10 @@ export default function HomePage() {
         </div>
       </section> */}
 
-      <section className="w-full bg-white">
-  <div className="w-full overflow-hidden">
+ <section className="w-full bg-white py-0">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <img
-      src="/images/why choose us.png"
+      src="/images/why-choose-us.png"
       alt="Why Choose Us"
       className="block h-auto w-full object-contain"
     />
